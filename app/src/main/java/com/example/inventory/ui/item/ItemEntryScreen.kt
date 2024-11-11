@@ -174,6 +174,7 @@ fun ItemInputForm(
             enabled = enabled,
             singleLine = true
         )
+
         if (enabled) {
             Text(
                 text = stringResource(R.string.required_fields),
